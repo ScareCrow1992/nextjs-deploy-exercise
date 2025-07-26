@@ -16,7 +16,7 @@ async function getMovies() {
     return json;
 }
 
-export default async function HomePage() {
+export default async function Home() {
     const movies = await getMovies();
     return (
         <div className = {styles.container}>
