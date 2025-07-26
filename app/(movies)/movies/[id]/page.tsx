@@ -1,7 +1,7 @@
 // nomad-movies.nomadcoders.workers.dev
 
 import { Suspense } from "react";
-import { API_URL } from "../../../(home)/page";
+import { API_URL } from "../../../constants";
 import MovieInfo from "../../../../components/movie-info";
 import MovieVideos from "../../../../components/movie-videos";
 
